@@ -1,1 +1,10 @@
 file3.txt export-ignore
+# Ignore files with .bak extension
+*.bak export-ignore
+
+# Ignore files in the temp directory
+temp/* export-ignore
+
+# Ignore all files in the directory named 'ignore'
+ignore/** export-ignore
+
